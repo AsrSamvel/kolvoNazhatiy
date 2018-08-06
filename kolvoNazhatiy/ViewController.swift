@@ -31,6 +31,7 @@ class ViewController: UIViewController {
         button.backgroundColor = .yellow
         button.setTitle("Нажимай", for: .normal)
         view.addSubview(button)
+        print("поздравляю, вы превосходны")
     }
     
     @objc
