@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		FED9453C20D0906B00695AF9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED9453B20D0906B00695AF9 /* AppDelegate.swift */; };
 		FED9453E20D0906B00695AF9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FED9453D20D0906B00695AF9 /* ViewController.swift */; };
-		FED9454120D0906D00695AF9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FED9453F20D0906D00695AF9 /* Main.storyboard */; };
 		FED9454320D0906D00695AF9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FED9454220D0906D00695AF9 /* Assets.xcassets */; };
 		FED9454620D0906D00695AF9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FED9454420D0906D00695AF9 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
@@ -18,7 +17,6 @@
 		FED9453820D0906B00695AF9 /* kolvoNazhatiy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kolvoNazhatiy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FED9453B20D0906B00695AF9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FED9453D20D0906B00695AF9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		FED9454020D0906D00695AF9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FED9454220D0906D00695AF9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FED9454520D0906D00695AF9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FED9454720D0906D00695AF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -56,7 +54,6 @@
 			children = (
 				FED9453B20D0906B00695AF9 /* AppDelegate.swift */,
 				FED9453D20D0906B00695AF9 /* ViewController.swift */,
-				FED9453F20D0906D00695AF9 /* Main.storyboard */,
 				FED9454220D0906D00695AF9 /* Assets.xcassets */,
 				FED9454420D0906D00695AF9 /* LaunchScreen.storyboard */,
 				FED9454720D0906D00695AF9 /* Info.plist */,
@@ -125,7 +122,6 @@
 			files = (
 				FED9454620D0906D00695AF9 /* LaunchScreen.storyboard in Resources */,
 				FED9454320D0906D00695AF9 /* Assets.xcassets in Resources */,
-				FED9454120D0906D00695AF9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -144,14 +140,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		FED9453F20D0906D00695AF9 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FED9454020D0906D00695AF9 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		FED9454420D0906D00695AF9 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -275,7 +263,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SM38RJUAX9;
 				INFOPLIST_FILE = kolvoNazhatiy/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Organ.kolvoNazhatiy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -289,7 +279,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SM38RJUAX9;
 				INFOPLIST_FILE = kolvoNazhatiy/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Organ.kolvoNazhatiy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
